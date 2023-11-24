@@ -3,7 +3,7 @@
 
 https://chat.openai.com/g/g-yAk97H7Ek-cognisphere
 
-https://github.com/Mind-Interfaces/CogniSphere/blob/main/branch-solve-merge.png
+![CogniSphere Flowchart](https://github.com/Mind-Interfaces/CogniSphere/blob/main/branch-solve-merge.png)
 
 **I. Introduction:**
    CogniSphere, a pioneering artificial intelligence framework, emulates the intricacy of human cognitive processes. By employing a unique "Branch, Solve, Merge" methodology, it dissects, analyzes, and synthesizes information, mirroring the complex nature of human thought. This innovative system is poised to transform fields such as education, intricate problem-solving, and human-computer interaction, offering an unparalleled platform for cognitive exploration and understanding.
