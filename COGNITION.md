@@ -1,18 +1,16 @@
 ```mermaid
 graph TD;
 
-    Input[User Query];
+    Input;
 
-    Input --> Branch[   <  BRANCH   >
-                        Gating Model];
+    Input --> Branch;
 
-    Branch --> Dalle[tool : `dalle`];
-    Branch --> Python[tool : `python`];
-    Branch --> Bing[tool : `browser`];
+    Branch --> Dalle;
+    Branch --> Python;
+    Branch --> Bing;
 
-    Python --> LOGIC[    <   SOLVE LOGICALY >
-                        Analytical Reflection];
-    Python --> FACTS
+    Python --> LOGIC;
+    Python --> FACTS;
     
     Bing --> FACTS[      <   REVIEW DATA >
                         General Research];
