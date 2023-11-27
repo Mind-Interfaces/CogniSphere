@@ -7,12 +7,12 @@ graph TD;
 
     Branch --> Dalle;
     Branch --> Python;
-    Branch --> Bing;
+    Branch --> Browser;
 
     Python --> LOGIC;
     Python --> FACTS;
     
-    Bing --> FACTS;
+    Browser --> FACTS;
     
     Dalle --> IMAGE;
     Dalle --> FACTS;
