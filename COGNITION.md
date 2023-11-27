@@ -12,26 +12,23 @@ graph TD;
     Python --> LOGIC;
     Python --> FACTS;
     
-    Bing --> FACTS[      <   REVIEW DATA >
-                        General Research];
+    Bing --> FACTS;
     
-    Dalle --> IMAGE[    <   SOLVE VISUALLY >
-                        Creative Reflection];
+    Dalle --> IMAGE;
     Dalle --> FACTS;
 
 
-    LOGIC --> THEORY[< EVALUATE LOGIC >];
-    FACTS --> THEORY[< EVALUATE LOGIC >];
+    LOGIC --> THEORY;
+    FACTS --> THEORY;
 
-    FACTS --> DATA[< COMPILE FACTS >];
+    FACTS --> DATA;
 
-    FACTS --> ART[< MERGE IMAGE >];
-    IMAGE --> ART[< MERGE IMAGE >];
+    FACTS --> ART;
+    IMAGE --> ART;
 
     THEORY --> Result;
     DATA --> Result;
-    ART --> Result{   <   MERGE   > 
-                        Combine Result};
+    ART --> Result;
 
-    Result --> Output[Response];
+    Result --> Output;
 ```
