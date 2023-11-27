@@ -1,4 +1,6 @@
-flowchart TD
+```mermaid
+
+graph TD
 
     Input[User Query]
 
@@ -35,3 +37,4 @@ flowchart TD
                         Combine Result}
 
     Result --> Output[Response]
+```
