@@ -3,22 +3,18 @@ flowchart TD;
 
     Input[User Query];
 
-    Input --> Branch[   <  BRANCH   >
-                        Gating Model];
+    Input --> Branch[   <  BRANCH   >    Gating Model];
 
     Branch --> Dalle[tool : `dalle`];
     Branch --> Python[tool : `python`];
     Branch --> Bing[tool : `browser`];
 
-    Python --> LOGIC[    <   SOLVE LOGICALY >
-                        Analytical Reflection];
+    Python --> LOGIC[    <   SOLVE LOGICALY >    Analytical Reflection];
     Python --> FACTS;
     
-    Bing --> FACTS[      <   REVIEW DATA >
-                        General Research];
+    Bing --> FACTS[      <   REVIEW DATA >    General Research];
     
-    Dalle --> IMAGE[    <   SOLVE VISUALLY >
-                        Creative Reflection];
+    Dalle --> IMAGE[    <   SOLVE VISUALLY >  Creative Reflection];
     Dalle --> FACTS;
 
 
@@ -32,8 +28,7 @@ flowchart TD;
 
     THEORY --> Result;
     DATA --> Result;
-    ART --> Result{   <   MERGE   > 
-                        Combine Result};
+    ART --> Result{   <   MERGE   >     Combine Result};
 
     Result --> Output[Response];
 ```
