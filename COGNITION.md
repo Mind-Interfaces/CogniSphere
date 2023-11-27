@@ -1,6 +1,6 @@
 ```mermaid
 
-graph TD
+flowchart TD
 
     Input[User Query]
 
